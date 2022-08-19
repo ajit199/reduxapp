@@ -1,0 +1,78 @@
+button{
+    cursor: pointer;
+}
+#container {
+  margin-top: 20px;
+}
+
+#table {
+  border-collapse: collapse;
+  width: 90%;
+  margin: auto;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+tr:hover {
+  background-color: #d6eeee;
+}
+
+tr button {
+  padding: 7px 12px;
+  font-size: 17px;
+}
+
+#details {
+  background-color: dodgerblue;
+  border: 1px solid dodgerblue;
+  color: white;
+}
+
+#delete {
+  background-color: tomato;
+  border: 1px solid tomato;
+  color: white;
+}
+
+#inputBox {
+  font-size: 18px;
+  border: none;
+  border-bottom: 2px solid dodgerblue;
+  padding: 5px 0;
+}
+
+#inputBox:focus {
+  outline: none;
+}
+
+#addTodo {
+  padding: 10px 15px;
+  background: dodgerblue;
+  color: white;
+  border: 1px solid dodgerblue;
+  margin-left: 5px;
+}
+
+#todoDetails {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  width: 30%;
+  padding: 10px;
+  margin:20px auto;
+}
+
+#counterDiv{
+  
+}
+
+#counterDiv > button{
+  font-size: 18px;
+  padding: 5px 10px;
+  
+}

@@ -1,0 +1,43 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "todos": [
+    {
+      "id": 1,
+      "task": "Go to gym",
+      "status": true
+    },
+    {
+      "id": 3,
+      "task": "Go to school",
+      "status": false
+    },
+    {
+      "task": "sbzi mandi",
+      "status": false,
+      "id": 4
+    },
+    {
+      "task": "Add Memory",
+      "status": false,
+      "id": 5
+    },
+    {
+      "task": "abcd",
+      "status": false,
+      "id": 6
+    }
+  ]
+}
